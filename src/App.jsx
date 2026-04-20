@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 
-const SERVER = "http://localhost:3001";
+const SERVER = "https://psk-backend-production.up.railway.app";
 
 const products = [
   { id: 1, name: "深海防護 SPF50+", subtitle: "輕透水感配方", price: "NT$980", spf: "SPF50+ PA++++", desc: "深海珊瑚萃取，輕盈不泛白，防曬同時補充肌膚水分。", color: "#0e7fa8", accent: "#b3e6f5", tag: "暢銷" },
